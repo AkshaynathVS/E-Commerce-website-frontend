@@ -1,6 +1,7 @@
 body{
     margin:35px;
     text-align: center;
+    background-color: rgb(219, 195, 201);
 }
 
 #container{
@@ -24,4 +25,14 @@ img{
 span{
     font-weight: 20px;
     color: orange;
+}
+.search1{
+    
+     height: 20px;
+     width: 200px;
+     
+}
+select{
+      height: 20px;
+      width: 200px;
 }

@@ -5,8 +5,15 @@
   <link rel="stylesheet" href="main.css">
   </head>
   <div id="container">
-  <input type="text" id="sbox" placeholder="Search Here">
-  <button onclick="formSearch()">search</button>
+  <input type="text" id="sbox" class="search1" placeholder="Search Here" required>
+  <button onclick="formSearch()" >search</button>
+  <select name="sort1" id="sort1" onchange="sortData()">
+    <option value="nun">Sort By</option>
+    <option value="rating">Rating</option>
+    <option value="lth">Price:Low to high</option>
+    <option value="htl">Price:High to low</option>
+  </select>
+  <hr>
    <div id="showfull"></div>
 
 
